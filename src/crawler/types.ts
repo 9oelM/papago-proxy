@@ -13,3 +13,16 @@ export interface TaskFunctionArguments<JobData> {
       id: number;
   };
 }
+
+export interface InputElement extends Element {
+  value?: string;
+  select?(): void;
+}
+
+export interface ButtonElement extends Element {
+  click?(): void;
+}
+
+export interface TranslationOptions {
+  waitForMSecs?: number;
+}
