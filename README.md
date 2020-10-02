@@ -20,6 +20,9 @@ querystrings:
 - `text`: **required**. text to be translated
 - `wait_for_msec`: **optional**. custom option to wait on headless Chrome until translate is fully done. This can be set if the text is too long to be translated in a short time. This is to be removed later.
 
+### Logs
+Check out https://logflare.app/sources/public/H-kRJ2IfiYbDKsnk
+
 ## Example
 
 Request:
