@@ -1,6 +1,9 @@
 # papago-proxy (파파고 프록시)
 This is a very simple implementation of papago proxy server, using headless Chrome.
 
+## Why?
+Sometimes you just want to test with Papago API without signing up for Naver Developers API... This is just for that. This means that you do not need a secret key.
+
 ## Usage
 ### Test
 
